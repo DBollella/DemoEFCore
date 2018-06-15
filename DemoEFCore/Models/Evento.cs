@@ -24,7 +24,7 @@ namespace DemoEFCore.Models
         public bool Gratuito { get; set; }
 
         [Required(ErrorMessage = "A descrição é obrigatoria")]
-        [MaxLength(1000, ErrorMessage = "O valor maximo é 1000")]
+        [MaxLength(500, ErrorMessage = "O valor maximo é 500")]
         public string Descricao { get; set; }
 
         public DateTime Data { get; set; }
